@@ -1,0 +1,88 @@
+.show-puzzle_button,
+.clear-puzzle_button,
+.random-game {
+  background-color: rgb(209, 233, 238);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 4px 9px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.clear-puzzle_button:active,
+.show-puzzle_button:active,
+.random-game:active {
+  transform: translateY(2px);
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+#puzzle__small {
+  background-color: rgb(209, 233, 238);
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-shadow: 4px 9px 5px 0px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+  width: 10.8rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.save-game_button,
+.load-game_button {
+  background-color: rgb(156, 172, 243);
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  box-shadow: 4px 9px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.save-game_button:active,
+.load-game_button:active {
+  transform: translateY(2px);
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+button.theme-changer {
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  color: #e9d02c;
+  font-family: cursive;
+  border-radius: 2rem;
+  background: #272525;
+  border: 1px solid #000;
+}
+
+.mute-button {
+  width: auto;
+  border: 1px solid #000;
+  background-color: rgb(172, 187, 200);
+  color: #000;
+  border-radius: 5px;
+  padding: 5px 5px;
+  box-shadow: 4px 9px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.mute-button.muted::before {
+  content: "\1F568";
+  font-family: "Material Icons";
+}
+.mute-button.unmuted::before {
+  content: "\1F56A";
+  font-family: "Material Icons";
+}
